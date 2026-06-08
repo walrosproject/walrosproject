@@ -266,6 +266,7 @@ Laboratorios de seguridad para practicar análisis, hardening, redes, comportami
 
 </div>
 
+<div align="center">
 ## 🎯 ¿Qué quiero alcanzar?
 
 ```txt
@@ -277,7 +278,7 @@ Laboratorios de seguridad para practicar análisis, hardening, redes, comportami
 > Experimentar con IA local usando Ollama, Llama3 y herramientas privadas
 > Construir proyectos reales que demuestren capacidad técnica, no solo teoría
 ```
-
+</div>
 ---
 
 ## 💬 Frases que pienso que me representan
