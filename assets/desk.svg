@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 420" width="640" height="420" role="img" aria-label="WalrOS workstation illustration">
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#0f172a"/>
+      <stop offset="1" stop-color="#111827"/>
+    </linearGradient>
+    <linearGradient id="screen" x1="0" x2="1">
+      <stop offset="0" stop-color="#06b6d4"/>
+      <stop offset="1" stop-color="#7c3aed"/>
+    </linearGradient>
+    <filter id="glow" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="4" result="coloredBlur"/>
+      <feMerge><feMergeNode in="coloredBlur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <rect width="640" height="420" rx="28" fill="url(#bg)"/>
+  <circle cx="120" cy="90" r="52" fill="#06b6d4" opacity=".10"/>
+  <circle cx="520" cy="330" r="74" fill="#7c3aed" opacity=".12"/>
+  <path d="M92 305h456l-34 48H128z" fill="#1f2937"/>
+  <path d="M140 352h360" stroke="#334155" stroke-width="10" stroke-linecap="round"/>
+  <rect x="118" y="115" width="140" height="98" rx="10" fill="#020617" stroke="#334155" stroke-width="4"/>
+  <rect x="270" y="82" width="178" height="126" rx="12" fill="#020617" stroke="#334155" stroke-width="4"/>
+  <rect x="460" y="126" width="80" height="82" rx="10" fill="#020617" stroke="#334155" stroke-width="4"/>
+  <g filter="url(#glow)">
+    <path d="M140 145h80M140 165h55M140 185h95" stroke="url(#screen)" stroke-width="6" stroke-linecap="round"/>
+    <path d="M296 115h124M296 140h70M296 166h105" stroke="url(#screen)" stroke-width="6" stroke-linecap="round"/>
+    <path d="M480 153h38M480 174h28" stroke="url(#screen)" stroke-width="6" stroke-linecap="round"/>
+  </g>
+  <rect x="300" y="210" width="120" height="12" rx="6" fill="#334155"/>
+  <path d="M344 210v42h34v-42" fill="#334155"/>
+  <rect x="248" y="252" width="220" height="34" rx="12" fill="#111827" stroke="#334155" stroke-width="3"/>
+  <circle cx="198" cy="272" r="24" fill="#0ea5e9" opacity=".9"/>
+  <path d="M188 272l8 8 16-20" fill="none" stroke="#e0f2fe" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="320" y="60" text-anchor="middle" fill="#e5e7eb" font-family="Segoe UI, Arial" font-size="30" font-weight="800">WalrOS Labs</text>
+  <text x="320" y="388" text-anchor="middle" fill="#94a3b8" font-family="JetBrains Mono, Consolas, monospace" font-size="18">Sysadmin · Security · Homelab</text>
+</svg>
