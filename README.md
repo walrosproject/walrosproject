@@ -266,6 +266,8 @@ Laboratorios de seguridad para practicar análisis, hardening, redes, comportami
 
 </div>
 
+<br><br>
+
 ---
 
 ## 🎯 ¿Qué quiero alcanzar?
