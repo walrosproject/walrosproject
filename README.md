@@ -2,7 +2,7 @@
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0b1020,50:4f46e5,100:06b6d4&height=250&section=header&text=Alex%20%7C%20WalrOS&fontSize=55&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Sysadmin%20%C2%B7%20Cybersecurity%20%C2%B7%20Pentesting%20%C2%B7%20Linux%20%C2%B7%20Networking%20%C2%B7%20Homelab%20Builder%20%C2%B7%20Security%20Labs&descAlignY=58&descSize=16" width="100%" />
 
-# Hola, soy Alex 👋
+# Hola, soy Álex 👋
 
 ### Sysadmin · Cybersecurity · Pentesting · Linux · Networking · Homelab Builder · Security Labs
 
@@ -22,11 +22,11 @@
 
 ## 🧑‍💻 Sobre mí
 
-Soy **Técnico de Sistemas Informáticos en formación**, especializado en administración de sistemas, virtualización, redes, automatización y ciberseguridad.
+Soy **Técnico de Sistemas Informáticos en Red**, especializado en administración de sistemas, virtualización, redes, automatización y ciberseguridad.
 
 No me limito a estudiar teoría: monto laboratorios, pruebo infraestructura, automatizo procesos, despliego servicios self-hosted y desarrollo proyectos propios bajo la marca **WalrOS**.
 
-- 🎓 Estudiante de **ASIR**
+- 🎓 **ASIR**
 - 🖥️ Experiencia práctica con **Windows Server, Ubuntu Server y entornos Linux/Windows**
 - 🐳 Administración de servicios con **Docker** y entornos self-hosted
 - 🧪 Laboratorios con **VMware, VirtualBox, Active Directory, redes y Kali Linux**
@@ -42,7 +42,7 @@ No me limito a estudiar teoría: monto laboratorios, pruebo infraestructura, aut
 
 ---
 
-## 🚀 Proyectos principales
+## 💻 Proyectos principales
 
 <table>
 <tr>
@@ -70,7 +70,7 @@ WalrOS no es solo una modificación del sistema; es la base de una marca técnic
 </td>
 <td width="50%" valign="top">
 
-### 🛡️ WalrOS Polymarket Bot
+### 🪙 Polymarket Bot
 
 Bot de trading para Polymarket con arquitectura **safety-first**, modo paper, dashboard, controles de riesgo y protección contra live trading accidental.
 
@@ -116,7 +116,7 @@ Infraestructura NAS/self-hosted basada en Docker y CasaOS para administrar servi
 
 ### 🎬 Automatización Multimedia
 
-Sistema de automatización orientado a contenido multimedia, servicios self-hosted y flujos gestionados dentro de infraestructura propia.
+Sistema de automatización orientado a contenido multimedia con Plex, Zurg y Real-Debrid.
 
 **Enfoque:**
 
@@ -136,7 +136,7 @@ Sistema de automatización orientado a contenido multimedia, servicios self-host
 <tr>
 <td width="50%" valign="top">
 
-### 🤖 IA Local con Ollama y Llama3
+### 🤖 IA Local con Ollama
 
 Entorno local para ejecutar modelos de IA, experimentar con automatización y mantener mayor control sobre privacidad y recursos.
 
@@ -266,21 +266,7 @@ Laboratorios de seguridad para practicar análisis, hardening, redes, comportami
 
 </div>
 
----
-
-## 📌 Repositorios destacados
-
-<div align="center">
-
-<a href="https://github.com/m0rs1/walros-polymarket-bot">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=m0rs1&repo=walros-polymarket-bot&theme=tokyonight&hide_border=true" />
-</a>
-
-</div>
-
----
-
-## 🎯 Current Focus
+## 🎯 ¿Qué quiero alcanzar?
 
 ```txt
 > Consolidar WalrOS como Windows mod y como marca de proyectos técnicos
@@ -294,11 +280,11 @@ Laboratorios de seguridad para practicar análisis, hardening, redes, comportami
 
 ---
 
-## 💬 Frases que me representan
+## 💬 Frases que pienso que me representan
 
 <div align="center">
 
-> “Si algo está expuesto, más te vale saber cómo está protegido.”
+> “Si algo está expuesto, más te vale saber cómo está protegido ;)”
 
 <br>
 
