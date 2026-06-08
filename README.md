@@ -36,9 +36,13 @@ No me limito a estudiar teoría: monto laboratorios, pruebo infraestructura, aut
 - 🦭 Creador de **WalrOS**, un Windows modificado enfocado en rendimiento, privacidad y experiencia de usuario
 - 🌐 Construyendo el ecosistema WalrOS con **walros.org**, **forum.walros.org** y proyectos propios
 
+<br>
+
 <div align="center">
   <img src="./assets/desk.svg" alt="WalrOS Labs" width="65%" />
 </div>
+
+<br>
 
 ---
 
