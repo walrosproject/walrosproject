@@ -22,32 +22,23 @@
 
 ## 🧑‍💻 Sobre mí
 
-<table>
-<tr>
-<td width="60%">
-
 Soy **Técnico de Sistemas Informáticos en formación**, especializado en administración de sistemas, virtualización, redes, automatización y ciberseguridad.
 
 No me limito a estudiar teoría: monto laboratorios, pruebo infraestructura, automatizo procesos, despliego servicios self-hosted y desarrollo proyectos propios bajo la marca **WalrOS**.
 
-* 🎓 Estudiante de **ASIR**
-* 🖥️ Experiencia práctica con **Windows Server, Ubuntu Server y entornos Linux/Windows**
-* 🐳 Administración de servicios con **Docker** y entornos self-hosted
-* 🧪 Laboratorios con **VMware, VirtualBox, Active Directory, redes y Kali Linux**
-* 🔐 Enfoque en **ciberseguridad, hardening, privacidad y análisis defensivo**
-* ⚙️ Automatización con **PowerShell, Bash y Python**
-* 🤖 Experimentación con **IA local usando Ollama y Llama3**
-* 🦭 Creador de **WalrOS**, un Windows modificado enfocado en rendimiento, privacidad y experiencia de usuario
-* 🌐 Construyendo el ecosistema WalrOS con **walros.org**, **forum.walros.org** y proyectos propios
+- 🎓 Estudiante de **ASIR**
+- 🖥️ Experiencia práctica con **Windows Server, Ubuntu Server y entornos Linux/Windows**
+- 🐳 Administración de servicios con **Docker** y entornos self-hosted
+- 🧪 Laboratorios con **VMware, VirtualBox, Active Directory, redes y Kali Linux**
+- 🔐 Enfoque en **ciberseguridad, hardening, privacidad y análisis defensivo**
+- ⚙️ Automatización con **PowerShell, Bash y Python**
+- 🤖 Experimentación con **IA local usando Ollama y Llama3**
+- 🦭 Creador de **WalrOS**, un Windows modificado enfocado en rendimiento, privacidad y experiencia de usuario
+- 🌐 Construyendo el ecosistema WalrOS con **walros.org**, **forum.walros.org** y proyectos propios
 
-</td>
-<td width="40%" align="center">
-
-<img src="./assets/desk.svg" width="95%" />
-
-</td>
-</tr>
-</table>
+<div align="center">
+  <img src="./assets/desk.svg" alt="WalrOS Labs" width="65%" />
+</div>
 
 ---
 
@@ -55,7 +46,7 @@ No me limito a estudiar teoría: monto laboratorios, pruebo infraestructura, aut
 
 <table>
 <tr>
-<td width="50%">
+<td width="50%" valign="top">
 
 ### ⚙️ WalrOS
 
@@ -65,19 +56,19 @@ WalrOS no es solo una modificación del sistema; es la base de una marca técnic
 
 **Enfoque:**
 
-![Windows](https://img.shields.io/badge/Windows-0078D6?style=flat-square\&logo=windows\&logoColor=white)
-![PowerShell](https://img.shields.io/badge/PowerShell-5391FE?style=flat-square\&logo=powershell\&logoColor=white)
-![Privacy](https://img.shields.io/badge/Privacy-111827?style=flat-square\&logo=proton\&logoColor=white)
+![Windows](https://img.shields.io/badge/Windows-0078D6?style=flat-square&logo=windows&logoColor=white)
+![PowerShell](https://img.shields.io/badge/PowerShell-5391FE?style=flat-square&logo=powershell&logoColor=white)
+![Privacy](https://img.shields.io/badge/Privacy-111827?style=flat-square&logo=proton&logoColor=white)
 
-* Optimización avanzada del sistema
-* Reducción de servicios innecesarios
-* Eliminación de bloatware
-* Ajustes de privacidad y telemetría
-* Mejoras de rendimiento y experiencia de usuario
-* Identidad visual y ecosistema propio
+- Optimización avanzada del sistema
+- Reducción de servicios innecesarios
+- Eliminación de bloatware
+- Ajustes de privacidad y telemetría
+- Mejoras de rendimiento y experiencia de usuario
+- Identidad visual y ecosistema propio
 
 </td>
-<td width="50%">
+<td width="50%" valign="top">
 
 ### 🛡️ WalrOS Polymarket Bot
 
@@ -85,24 +76,24 @@ Bot de trading para Polymarket con arquitectura **safety-first**, modo paper, da
 
 **Stack:**
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square\&logo=python\&logoColor=white)
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square\&logo=fastapi\&logoColor=white)
-![React](https://img.shields.io/badge/React-20232A?style=flat-square\&logo=react\&logoColor=61DAFB)
-![Vite](https://img.shields.io/badge/Vite-646CFF?style=flat-square\&logo=vite\&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
+![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)
+![Vite](https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white)
 
-* Backend con FastAPI
-* Dashboard con React/Vite
-* Paper trading por defecto
-* LiveTradingGuard para evitar operaciones reales accidentales
-* RiskManager con límites y filtros
-* Autenticación y endpoints protegidos
-* Tests automatizados
+- Backend con FastAPI
+- Dashboard con React/Vite
+- Paper trading por defecto
+- LiveTradingGuard para evitar operaciones reales accidentales
+- RiskManager con límites y filtros
+- Autenticación y endpoints protegidos
+- Tests automatizados
 
 </td>
 </tr>
 
 <tr>
-<td width="50%">
+<td width="50%" valign="top">
 
 ### 🏠 Servidor NAS Self-Hosted
 
@@ -110,18 +101,18 @@ Infraestructura NAS/self-hosted basada en Docker y CasaOS para administrar servi
 
 **Stack:**
 
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square\&logo=docker\&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-111827?style=flat-square\&logo=linux\&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-111827?style=flat-square&logo=linux&logoColor=white)
 ![CasaOS](https://img.shields.io/badge/CasaOS-1E293B?style=flat-square)
 
-* Administración de servicios autoalojados
-* Gestión de contenedores Docker
-* Organización de almacenamiento
-* Infraestructura casera privada
-* Base para pruebas, servicios y automatizaciones
+- Administración de servicios autoalojados
+- Gestión de contenedores Docker
+- Organización de almacenamiento
+- Infraestructura casera privada
+- Base para pruebas, servicios y automatizaciones
 
 </td>
-<td width="50%">
+<td width="50%" valign="top">
 
 ### 🎬 Automatización Multimedia
 
@@ -129,21 +120,21 @@ Sistema de automatización orientado a contenido multimedia, servicios self-host
 
 **Enfoque:**
 
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square\&logo=docker\&logoColor=white)
-![Automation](https://img.shields.io/badge/Automation-06B6D4?style=flat-square\&logo=zapier\&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-111827?style=flat-square\&logo=linux\&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+![Automation](https://img.shields.io/badge/Automation-06B6D4?style=flat-square&logo=zapier&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-111827?style=flat-square&logo=linux&logoColor=white)
 
-* Automatización de procesos multimedia
-* Integración con servicios self-hosted
-* Organización de flujos y tareas
-* Mantenimiento de servicios privados
-* Enfoque en eficiencia y control local
+- Automatización de procesos multimedia
+- Integración con servicios self-hosted
+- Organización de flujos y tareas
+- Mantenimiento de servicios privados
+- Enfoque en eficiencia y control local
 
 </td>
 </tr>
 
 <tr>
-<td width="50%">
+<td width="50%" valign="top">
 
 ### 🤖 IA Local con Ollama y Llama3
 
@@ -152,17 +143,17 @@ Entorno local para ejecutar modelos de IA, experimentar con automatización y ma
 **Stack:**
 
 ![Ollama](https://img.shields.io/badge/Ollama-111827?style=flat-square)
-![Llama3](https://img.shields.io/badge/Llama3-4F46E5?style=flat-square\&logo=meta\&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-111827?style=flat-square\&logo=linux\&logoColor=white)
+![Llama3](https://img.shields.io/badge/Llama3-4F46E5?style=flat-square&logo=meta&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-111827?style=flat-square&logo=linux&logoColor=white)
 
-* Ejecución local de modelos
-* Pruebas con Llama3
-* Automatización asistida por IA
-* Entorno privado de experimentación
-* Integración con herramientas propias
+- Ejecución local de modelos
+- Pruebas con Llama3
+- Automatización asistida por IA
+- Entorno privado de experimentación
+- Integración con herramientas propias
 
 </td>
-<td width="50%">
+<td width="50%" valign="top">
 
 ### 🧪 Laboratorios Virtualizados
 
@@ -170,22 +161,22 @@ Entornos virtualizados para practicar administración de sistemas, redes, Active
 
 **Stack:**
 
-![VMware](https://img.shields.io/badge/VMware-607078?style=flat-square\&logo=vmware\&logoColor=white)
-![VirtualBox](https://img.shields.io/badge/VirtualBox-183A61?style=flat-square\&logo=virtualbox\&logoColor=white)
-![Kali Linux](https://img.shields.io/badge/Kali_Linux-557C94?style=flat-square\&logo=kalilinux\&logoColor=white)
+![VMware](https://img.shields.io/badge/VMware-607078?style=flat-square&logo=vmware&logoColor=white)
+![VirtualBox](https://img.shields.io/badge/VirtualBox-183A61?style=flat-square&logo=virtualbox&logoColor=white)
+![Kali Linux](https://img.shields.io/badge/Kali_Linux-557C94?style=flat-square&logo=kalilinux&logoColor=white)
 
-* Laboratorios Windows/Linux
-* Active Directory
-* Redes y segmentación
-* Pruebas con Kali Linux
-* Administración de servicios
-* Seguridad en entornos controlados
+- Laboratorios Windows/Linux
+- Active Directory
+- Redes y segmentación
+- Pruebas con Kali Linux
+- Administración de servicios
+- Seguridad en entornos controlados
 
 </td>
 </tr>
 
 <tr>
-<td width="50%">
+<td width="50%" valign="top">
 
 ### 🌐 Ecosistema WalrOS
 
@@ -193,18 +184,18 @@ WalrOS está creciendo como marca técnica para agrupar mis proyectos, servicios
 
 **Enlaces:**
 
-[![WalrOS](https://img.shields.io/badge/walros.org-38BDF8?style=for-the-badge\&logo=google-chrome\&logoColor=white)](https://www.walros.org)
-[![Forum](https://img.shields.io/badge/forum.walros.org-7C3AED?style=for-the-badge\&logo=discourse\&logoColor=white)](https://forum.walros.org)
+[![WalrOS](https://img.shields.io/badge/walros.org-38BDF8?style=for-the-badge&logo=google-chrome&logoColor=white)](https://www.walros.org)
+[![Forum](https://img.shields.io/badge/forum.walros.org-7C3AED?style=for-the-badge&logo=discourse&logoColor=white)](https://forum.walros.org)
 
-* Web principal
-* Foro propio
-* Proyectos bajo identidad WalrOS
-* Servicios técnicos
-* Comunidad y documentación
-* Marca personal orientada a sistemas y ciberseguridad
+- Web principal
+- Foro propio
+- Proyectos bajo identidad WalrOS
+- Servicios técnicos
+- Comunidad y documentación
+- Marca personal orientada a sistemas y ciberseguridad
 
 </td>
-<td width="50%">
+<td width="50%" valign="top">
 
 ### 🔐 Security Research Labs
 
@@ -212,16 +203,16 @@ Laboratorios de seguridad para practicar análisis, hardening, redes, comportami
 
 **Áreas:**
 
-![Security](https://img.shields.io/badge/Security-DC2626?style=flat-square\&logo=hackthebox\&logoColor=white)
-![Networking](https://img.shields.io/badge/Networking-0f172a?style=flat-square\&logo=cisco\&logoColor=white)
-![Windows Server](https://img.shields.io/badge/Windows_Server-0078D6?style=flat-square\&logo=windows\&logoColor=white)
+![Security](https://img.shields.io/badge/Security-DC2626?style=flat-square&logo=hackthebox&logoColor=white)
+![Networking](https://img.shields.io/badge/Networking-0f172a?style=flat-square&logo=cisco&logoColor=white)
+![Windows Server](https://img.shields.io/badge/Windows_Server-0078D6?style=flat-square&logo=windows&logoColor=white)
 
-* Pentesting en laboratorio
-* Hardening básico
-* Análisis defensivo
-* Redes y servicios
-* Pruebas en máquinas aisladas
-* Aprender rompiendo sin tocar producción
+- Pentesting en laboratorio
+- Hardening básico
+- Análisis defensivo
+- Redes y servicios
+- Pruebas en máquinas aisladas
+- Aprender rompiendo sin tocar producción
 
 </td>
 </tr>
@@ -239,10 +230,10 @@ Laboratorios de seguridad para practicar análisis, hardening, redes, comportami
 
 <br><br>
 
-![Windows Server](https://img.shields.io/badge/Windows_Server-0078D6?style=for-the-badge\&logo=windows\&logoColor=white)
-![Ubuntu Server](https://img.shields.io/badge/Ubuntu_Server-E95420?style=for-the-badge\&logo=ubuntu\&logoColor=white)
-![Active Directory](https://img.shields.io/badge/Active_Directory-2563EB?style=for-the-badge\&logo=microsoft\&logoColor=white)
-![WireGuard](https://img.shields.io/badge/WireGuard-88171A?style=for-the-badge\&logo=wireguard\&logoColor=white)
+![Windows Server](https://img.shields.io/badge/Windows_Server-0078D6?style=for-the-badge&logo=windows&logoColor=white)
+![Ubuntu Server](https://img.shields.io/badge/Ubuntu_Server-E95420?style=for-the-badge&logo=ubuntu&logoColor=white)
+![Active Directory](https://img.shields.io/badge/Active_Directory-2563EB?style=for-the-badge&logo=microsoft&logoColor=white)
+![WireGuard](https://img.shields.io/badge/WireGuard-88171A?style=for-the-badge&logo=wireguard&logoColor=white)
 
 <br><br>
 
@@ -252,25 +243,25 @@ Laboratorios de seguridad para practicar análisis, hardening, redes, comportami
 
 <br><br>
 
-![PowerShell](https://img.shields.io/badge/PowerShell-5391FE?style=for-the-badge\&logo=powershell\&logoColor=white)
-![Bash](https://img.shields.io/badge/Bash-121011?style=for-the-badge\&logo=gnubash\&logoColor=white)
-![Automation](https://img.shields.io/badge/Automation-06B6D4?style=for-the-badge\&logo=zapier\&logoColor=white)
+![PowerShell](https://img.shields.io/badge/PowerShell-5391FE?style=for-the-badge&logo=powershell&logoColor=white)
+![Bash](https://img.shields.io/badge/Bash-121011?style=for-the-badge&logo=gnubash&logoColor=white)
+![Automation](https://img.shields.io/badge/Automation-06B6D4?style=for-the-badge&logo=zapier&logoColor=white)
 
 <br><br>
 
 ### Virtualización, redes y seguridad
 
-![VMware](https://img.shields.io/badge/VMware-607078?style=for-the-badge\&logo=vmware\&logoColor=white)
-![VirtualBox](https://img.shields.io/badge/VirtualBox-183A61?style=for-the-badge\&logo=virtualbox\&logoColor=white)
-![Kali Linux](https://img.shields.io/badge/Kali_Linux-557C94?style=for-the-badge\&logo=kalilinux\&logoColor=white)
-![Networking](https://img.shields.io/badge/Networking-0f172a?style=for-the-badge\&logo=cisco\&logoColor=white)
+![VMware](https://img.shields.io/badge/VMware-607078?style=for-the-badge&logo=vmware&logoColor=white)
+![VirtualBox](https://img.shields.io/badge/VirtualBox-183A61?style=for-the-badge&logo=virtualbox&logoColor=white)
+![Kali Linux](https://img.shields.io/badge/Kali_Linux-557C94?style=for-the-badge&logo=kalilinux&logoColor=white)
+![Networking](https://img.shields.io/badge/Networking-0f172a?style=for-the-badge&logo=cisco&logoColor=white)
 
 <br><br>
 
 ### IA local
 
 ![Ollama](https://img.shields.io/badge/Ollama-111827?style=for-the-badge)
-![Llama3](https://img.shields.io/badge/Llama3-4F46E5?style=for-the-badge\&logo=meta\&logoColor=white)
+![Llama3](https://img.shields.io/badge/Llama3-4F46E5?style=for-the-badge&logo=meta&logoColor=white)
 ![Local AI](https://img.shields.io/badge/Local_AI-7C3AED?style=for-the-badge)
 
 </div>
@@ -325,9 +316,9 @@ Laboratorios de seguridad para practicar análisis, hardening, redes, comportami
 
 <div align="center">
 
-[![GitHub](https://img.shields.io/badge/GitHub-m0rs1-181717?style=for-the-badge\&logo=github)](https://github.com/m0rs1)
-[![WalrOS](https://img.shields.io/badge/WalrOS-walros.org-38BDF8?style=for-the-badge\&logo=google-chrome\&logoColor=white)](https://www.walros.org)
-[![Forum](https://img.shields.io/badge/Forum-forum.walros.org-7C3AED?style=for-the-badge\&logo=discourse\&logoColor=white)](https://forum.walros.org)
+[![GitHub](https://img.shields.io/badge/GitHub-m0rs1-181717?style=for-the-badge&logo=github)](https://github.com/m0rs1)
+[![WalrOS](https://img.shields.io/badge/WalrOS-walros.org-38BDF8?style=for-the-badge&logo=google-chrome&logoColor=white)](https://www.walros.org)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Alexander%20Calle-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/alexandercalle/)
 
 </div>
 

@@ -1,21 +1,21 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" width="1200" height="120" role="img" aria-label="WalrOS animated glitch text">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" width="1200" height="120">
   <defs>
     <linearGradient id="flow" x1="0%" y1="0%" x2="100%" y2="0%">
       <stop offset="0%" stop-color="#44d8ff">
         <animate attributeName="stop-color" values="#44d8ff;#6ee7ff;#44d8ff" dur="6s" repeatCount="indefinite"/>
       </stop>
-      <stop offset="45%" stop-color="#7dd3fc">
+      <stop offset="50%" stop-color="#7dd3fc">
         <animate attributeName="stop-color" values="#7dd3fc;#93c5fd;#7dd3fc" dur="6s" repeatCount="indefinite"/>
       </stop>
-      <stop offset="100%" stop-color="#d946ef">
-        <animate attributeName="stop-color" values="#d946ef;#f472b6;#a78bfa;#d946ef" dur="6s" repeatCount="indefinite"/>
+      <stop offset="100%" stop-color="#c084fc">
+        <animate attributeName="stop-color" values="#c084fc;#f472b6;#c084fc" dur="6s" repeatCount="indefinite"/>
       </stop>
-      <animate attributeName="x1" values="0%;-30%;0%" dur="7s" repeatCount="indefinite"/>
-      <animate attributeName="x2" values="100%;130%;100%" dur="7s" repeatCount="indefinite"/>
+      <animate attributeName="x1" values="0%;-25%;0%" dur="7s" repeatCount="indefinite"/>
+      <animate attributeName="x2" values="100%;125%;100%" dur="7s" repeatCount="indefinite"/>
     </linearGradient>
 
-    <filter id="softGlow" x="-20%" y="-80%" width="140%" height="260%">
-      <feGaussianBlur stdDeviation="2.5" result="blur"/>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="2" result="blur"/>
       <feMerge>
         <feMergeNode in="blur"/>
         <feMergeNode in="SourceGraphic"/>
@@ -24,99 +24,45 @@
 
     <style>
       .t {
-        font-family: "JetBrains Mono", "Cascadia Code", "Segoe UI", Arial, sans-serif;
-        font-size: 33px;
+        font-family: "JetBrains Mono", "Segoe UI", Arial, sans-serif;
+        font-size: 34px;
         font-weight: 800;
         dominant-baseline: middle;
         text-anchor: middle;
-        letter-spacing: .2px;
       }
-      .main { fill: url(#flow); filter: url(#softGlow); }
-      .c1 { fill: #38e8ff; opacity: .55; }
-      .c2 { fill: #ff6bd6; opacity: .45; }
-      .scan { fill: #ffffff; opacity: .14; }
+      .main { fill: url(#flow); filter: url(#glow); }
+      .c1 { fill: #4de2ff; opacity: 0.45; }
+      .c2 { fill: #f472b6; opacity: 0.38; }
     </style>
   </defs>
 
   <rect width="1200" height="120" fill="transparent"/>
 
-  <!-- Text 1 -->
   <g>
-    <animate attributeName="opacity" values="0;1;1;0;0;0;0;0;0" keyTimes="0;0.03;0.21;0.25;0.251;0.5;0.75;0.99;1" dur="16s" repeatCount="indefinite"/>
-    <text class="t c1" x="602" y="60">
-      <animate attributeName="x" values="602;590;609;597;604;600" dur=".32s" repeatCount="indefinite"/>
-      Si está en Internet, protégelo bien ;)
-    </text>
-    <text class="t c2" x="598" y="60">
-      <animate attributeName="x" values="598;610;591;603;596;600" dur=".25s" repeatCount="indefinite"/>
-      Si está en Internet, protégelo bien ;)
-    </text>
-    <text class="t main" x="600" y="60">
-      <animate attributeName="opacity" values="1;.55;1;.72;1" dur=".22s" repeatCount="indefinite"/>
-      Si está en Internet, protégelo bien ;)
-    </text>
-    <rect class="scan" x="260" y="38" width="680" height="7">
-      <animate attributeName="x" values="260;900;260" dur=".45s" repeatCount="indefinite"/>
-      <animate attributeName="opacity" values="0;.22;0" dur=".45s" repeatCount="indefinite"/>
-    </rect>
+    <animate attributeName="opacity" values="0;1;1;0;0;0;0;0;0" keyTimes="0;0.02;0.23;0.25;0.251;0.5;0.75;0.99;1" dur="16s" repeatCount="indefinite"/>
+    <text class="t c1" x="603" y="60"><animate attributeName="x" values="603;594;607;600;603" dur="0.32s" repeatCount="indefinite"/>Si está en Internet, protégelo bien ;)</text>
+    <text class="t c2" x="597" y="60"><animate attributeName="x" values="597;607;594;600;597" dur="0.25s" repeatCount="indefinite"/>Si está en Internet, protégelo bien ;)</text>
+    <text class="t main" x="600" y="60">Si está en Internet, protégelo bien ;)<animate attributeName="opacity" values="1;0.7;1;0.82;1" dur="0.18s" repeatCount="indefinite"/></text>
   </g>
 
-  <!-- Text 2 -->
   <g>
-    <animate attributeName="opacity" values="0;0;0;1;1;0;0;0;0" keyTimes="0;0.235;0.26;0.285;0.46;0.50;0.501;0.99;1" dur="16s" repeatCount="indefinite"/>
-    <text class="t c1" x="602" y="60">
-      <animate attributeName="x" values="602;592;608;596;603;600" dur=".30s" repeatCount="indefinite"/>
-      Romper, entender, arreglar y mejorar...
-    </text>
-    <text class="t c2" x="598" y="60">
-      <animate attributeName="x" values="598;608;592;604;597;600" dur=".24s" repeatCount="indefinite"/>
-      Romper, entender, arreglar y mejorar...
-    </text>
-    <text class="t main" x="600" y="60">
-      <animate attributeName="opacity" values="1;.55;1;.72;1" dur=".20s" repeatCount="indefinite"/>
-      Romper, entender, arreglar y mejorar...
-    </text>
-    <rect class="scan" x="220" y="72" width="760" height="6">
-      <animate attributeName="x" values="220;930;220" dur=".50s" repeatCount="indefinite"/>
-      <animate attributeName="opacity" values="0;.20;0" dur=".50s" repeatCount="indefinite"/>
-    </rect>
+    <animate attributeName="opacity" values="0;0;0;1;1;0;0;0;0" keyTimes="0;0.24;0.26;0.27;0.48;0.50;0.501;0.99;1" dur="16s" repeatCount="indefinite"/>
+    <text class="t c1" x="603" y="60"><animate attributeName="x" values="603;594;607;600;603" dur="0.32s" repeatCount="indefinite"/>Romper, entender, arreglar y mejorar...</text>
+    <text class="t c2" x="597" y="60"><animate attributeName="x" values="597;607;594;600;597" dur="0.25s" repeatCount="indefinite"/>Romper, entender, arreglar y mejorar...</text>
+    <text class="t main" x="600" y="60">Romper, entender, arreglar y mejorar...<animate attributeName="opacity" values="1;0.7;1;0.82;1" dur="0.18s" repeatCount="indefinite"/></text>
   </g>
 
-  <!-- Text 3 -->
   <g>
-    <animate attributeName="opacity" values="0;0;0;0;0;1;1;0;0" keyTimes="0;0.49;0.51;0.535;0.60;0.625;0.71;0.75;1" dur="16s" repeatCount="indefinite"/>
-    <text class="t c1" x="602" y="60">
-      <animate attributeName="x" values="602;584;614;595;606;600" dur=".22s" repeatCount="indefinite"/>
-      ;)
-    </text>
-    <text class="t c2" x="598" y="60">
-      <animate attributeName="x" values="598;616;586;605;594;600" dur=".18s" repeatCount="indefinite"/>
-      ;)
-    </text>
-    <text class="t main" x="600" y="60">
-      <animate attributeName="opacity" values="1;.35;1;.7;1" dur=".16s" repeatCount="indefinite"/>
-      ;)
-    </text>
+    <animate attributeName="opacity" values="0;0;0;0;0;1;1;0;0" keyTimes="0;0.49;0.51;0.52;0.61;0.62;0.72;0.75;1" dur="16s" repeatCount="indefinite"/>
+    <text class="t c1" x="603" y="60"><animate attributeName="x" values="603;594;607;600;603" dur="0.32s" repeatCount="indefinite"/>;)</text>
+    <text class="t c2" x="597" y="60"><animate attributeName="x" values="597;607;594;600;597" dur="0.25s" repeatCount="indefinite"/>;)</text>
+    <text class="t main" x="600" y="60">;)<animate attributeName="opacity" values="1;0.7;1;0.82;1" dur="0.18s" repeatCount="indefinite"/></text>
   </g>
 
-  <!-- Text 4 -->
   <g>
-    <animate attributeName="opacity" values="0;0;0;0;0;0;0;1;1;0" keyTimes="0;0.735;0.76;0.785;0.955;0.975;0.985;0.99;0.999;1" dur="16s" repeatCount="indefinite"/>
-    <text class="t c1" x="602" y="60">
-      <animate attributeName="x" values="602;592;608;596;604;600" dur=".31s" repeatCount="indefinite"/>
-      WalrOS: Un poco de todo 🦭
-    </text>
-    <text class="t c2" x="598" y="60">
-      <animate attributeName="x" values="598;608;592;604;596;600" dur=".24s" repeatCount="indefinite"/>
-      WalrOS: Un poco de todo 🦭
-    </text>
-    <text class="t main" x="600" y="60">
-      <animate attributeName="opacity" values="1;.55;1;.72;1" dur=".20s" repeatCount="indefinite"/>
-      WalrOS: Un poco de todo 🦭
-    </text>
-    <rect class="scan" x="330" y="42" width="540" height="7">
-      <animate attributeName="x" values="330;830;330" dur=".48s" repeatCount="indefinite"/>
-      <animate attributeName="opacity" values="0;.18;0" dur=".48s" repeatCount="indefinite"/>
-    </rect>
+    <animate attributeName="opacity" values="0;0;0;0;0;0;0;1;1;0" keyTimes="0;0.74;0.76;0.77;0.88;0.90;0.91;0.92;0.98;1" dur="16s" repeatCount="indefinite"/>
+    <text class="t c1" x="603" y="60"><animate attributeName="x" values="603;594;607;600;603" dur="0.32s" repeatCount="indefinite"/>WalrOS: Un poco de todo 🦭</text>
+    <text class="t c2" x="597" y="60"><animate attributeName="x" values="597;607;594;600;597" dur="0.25s" repeatCount="indefinite"/>WalrOS: Un poco de todo 🦭</text>
+    <text class="t main" x="600" y="60">WalrOS: Un poco de todo 🦭<animate attributeName="opacity" values="1;0.7;1;0.82;1" dur="0.18s" repeatCount="indefinite"/></text>
   </g>
 </svg>

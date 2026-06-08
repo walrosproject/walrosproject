@@ -1,36 +1,45 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 420" width="640" height="420" role="img" aria-label="WalrOS workstation illustration">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 300" width="820" height="300">
   <defs>
-    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
-      <stop offset="0" stop-color="#0f172a"/>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b1020"/>
       <stop offset="1" stop-color="#111827"/>
     </linearGradient>
-    <linearGradient id="screen" x1="0" x2="1">
-      <stop offset="0" stop-color="#06b6d4"/>
-      <stop offset="1" stop-color="#7c3aed"/>
+    <linearGradient id="line" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#22d3ee"/>
+      <stop offset="1" stop-color="#a855f7"/>
     </linearGradient>
-    <filter id="glow" x="-40%" y="-40%" width="180%" height="180%">
-      <feGaussianBlur stdDeviation="4" result="coloredBlur"/>
-      <feMerge><feMergeNode in="coloredBlur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
     </filter>
   </defs>
-  <rect width="640" height="420" rx="28" fill="url(#bg)"/>
-  <circle cx="120" cy="90" r="52" fill="#06b6d4" opacity=".10"/>
-  <circle cx="520" cy="330" r="74" fill="#7c3aed" opacity=".12"/>
-  <path d="M92 305h456l-34 48H128z" fill="#1f2937"/>
-  <path d="M140 352h360" stroke="#334155" stroke-width="10" stroke-linecap="round"/>
-  <rect x="118" y="115" width="140" height="98" rx="10" fill="#020617" stroke="#334155" stroke-width="4"/>
-  <rect x="270" y="82" width="178" height="126" rx="12" fill="#020617" stroke="#334155" stroke-width="4"/>
-  <rect x="460" y="126" width="80" height="82" rx="10" fill="#020617" stroke="#334155" stroke-width="4"/>
-  <g filter="url(#glow)">
-    <path d="M140 145h80M140 165h55M140 185h95" stroke="url(#screen)" stroke-width="6" stroke-linecap="round"/>
-    <path d="M296 115h124M296 140h70M296 166h105" stroke="url(#screen)" stroke-width="6" stroke-linecap="round"/>
-    <path d="M480 153h38M480 174h28" stroke="url(#screen)" stroke-width="6" stroke-linecap="round"/>
+  <rect x="10" y="10" width="800" height="280" rx="28" fill="url(#bg)" stroke="#1e293b" stroke-width="2"/>
+  <circle cx="95" cy="85" r="38" fill="#06b6d4" opacity="0.18"/>
+  <circle cx="710" cy="218" r="58" fill="#7c3aed" opacity="0.20"/>
+  <text x="410" y="52" font-family="JetBrains Mono, Segoe UI, Arial" font-size="30" font-weight="800" fill="#e5f6ff" text-anchor="middle">WalrOS Labs</text>
+  <g transform="translate(240,82)">
+    <rect x="0" y="0" width="155" height="96" rx="10" fill="#111827" stroke="#475569" stroke-width="4"/>
+    <rect x="22" y="22" width="84" height="7" rx="3.5" fill="#22d3ee" filter="url(#glow)"/>
+    <rect x="22" y="44" width="115" height="7" rx="3.5" fill="#60a5fa" filter="url(#glow)"/>
+    <rect x="22" y="66" width="62" height="7" rx="3.5" fill="#a855f7" filter="url(#glow)"/>
   </g>
-  <rect x="300" y="210" width="120" height="12" rx="6" fill="#334155"/>
-  <path d="M344 210v42h34v-42" fill="#334155"/>
-  <rect x="248" y="252" width="220" height="34" rx="12" fill="#111827" stroke="#334155" stroke-width="3"/>
-  <circle cx="198" cy="272" r="24" fill="#0ea5e9" opacity=".9"/>
-  <path d="M188 272l8 8 16-20" fill="none" stroke="#e0f2fe" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
-  <text x="320" y="60" text-anchor="middle" fill="#e5e7eb" font-family="Segoe UI, Arial" font-size="30" font-weight="800">WalrOS Labs</text>
-  <text x="320" y="388" text-anchor="middle" fill="#94a3b8" font-family="JetBrains Mono, Consolas, monospace" font-size="18">Sysadmin · Security · Homelab</text>
+  <g transform="translate(420,58)">
+    <rect x="0" y="0" width="185" height="128" rx="10" fill="#111827" stroke="#475569" stroke-width="4"/>
+    <rect x="25" y="26" width="72" height="8" rx="4" fill="#22d3ee" filter="url(#glow)"/>
+    <rect x="25" y="52" width="132" height="8" rx="4" fill="#38bdf8" filter="url(#glow)"/>
+    <rect x="25" y="78" width="94" height="8" rx="4" fill="#818cf8" filter="url(#glow)"/>
+    <rect x="137" y="26" width="28" height="8" rx="4" fill="#a855f7" filter="url(#glow)"/>
+    <rect x="76" y="128" width="34" height="38" fill="#334155"/>
+    <rect x="45" y="164" width="96" height="14" rx="7" fill="#334155"/>
+  </g>
+  <g transform="translate(632,108)">
+    <rect x="0" y="0" width="95" height="86" rx="10" fill="#111827" stroke="#475569" stroke-width="4"/>
+    <rect x="22" y="25" width="48" height="7" rx="3.5" fill="#22d3ee" filter="url(#glow)"/>
+    <rect x="22" y="50" width="34" height="7" rx="3.5" fill="#a855f7" filter="url(#glow)"/>
+  </g>
+  <path d="M175 215 H690 L640 265 H225 Z" fill="#1f2937"/>
+  <path d="M245 235 H620" stroke="url(#line)" stroke-width="3" opacity="0.7"/>
+  <circle cx="300" cy="210" r="24" fill="#0ea5e9"/>
+  <path d="M290 210 l8 9 l17 -21" fill="none" stroke="#ecfeff" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="410" y="268" font-family="JetBrains Mono, Segoe UI, Arial" font-size="15" fill="#93c5fd" text-anchor="middle">Sysadmin · Security · Homelab</text>
 </svg>
