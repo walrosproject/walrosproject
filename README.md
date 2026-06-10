@@ -14,7 +14,7 @@
 
 <img src="https://komarev.com/ghpvc/?username=walrosproject&label=PROFILE%20VIEWS&color=0e75b6&style=for-the-badge" />
 <img src="https://img.shields.io/github/followers/walrosproject?label=FOLLOWERS&style=for-the-badge&color=7c3aed" />
-<img src="https://img.shields.io/github/stars/walrosproject?affiliations=OWNER&style=for-the-badge&color=f59e0b" />
+<img src="https://img.shields.io/github/stars/walrosproject?affiliations=OWNER&label=STARS&style=for-the-badge&color=f59e0b" />
 
 </div>
 
