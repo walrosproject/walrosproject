@@ -13,8 +13,8 @@
 <br><br>
 
 <img src="https://komarev.com/ghpvc/?username=walrosproject&label=PROFILE%20VIEWS&color=0e75b6&style=for-the-badge" />
-<img src="https://img.shields.io/badge/FOLLOWERS-GitHub-7c3aed?style=for-the-badge&logo=github" />
-<img src="https://img.shields.io/badge/STARS-Repositories-f59e0b?style=for-the-badge&logo=github" />
+<img src="https://img.shields.io/github/followers/walrosproject?label=FOLLOWERS&style=for-the-badge&color=7c3aed&logo=github" />
+<img src="https://img.shields.io/github/stars/walrosproject?affiliations=OWNER&label=STARS&style=for-the-badge&color=f59e0b&logo=github" />
 
 </div>
 
