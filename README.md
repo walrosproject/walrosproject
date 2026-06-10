@@ -309,8 +309,7 @@ Laboratorios de seguridad para practicar análisis, hardening, redes, comportami
 
 <div align="center">
 
-[![GitHub](https://img.shields.io/badge/GitHub-m0rs1-181717?style=for-the-badge&logo=github)](https://github.com/m0rs1)
-[![WalrOS](https://img.shields.io/badge/WalrOS-walros.org-38BDF8?style=for-the-badge&logo=google-chrome&logoColor=white)](https://www.walros.org)
+[![GitHub](https://img.shields.io/badge/GitHub-walrosproject-181717?style=for-the-badge&logo=github)](https://github.com/walrosproject)[![WalrOS](https://img.shields.io/badge/WalrOS-walros.org-38BDF8?style=for-the-badge&logo=google-chrome&logoColor=white)](https://www.walros.org)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Alexander%20Calle-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/alexandercalle/)
 
 </div>
